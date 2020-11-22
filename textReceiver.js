@@ -3,7 +3,7 @@
 -Grab the 2 text box with their value
 -Ask if they want to use substring or substr
 -Create a function with it finding the words with the 2 values
--Display the founded words
+-Console log the words
 */
 
 
