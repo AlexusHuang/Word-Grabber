@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grab text using index numbers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <textarea name="paragraph" id="paragraph" cols="100" rows="20" form="form1" placeholder="Type in some text!"></textarea>
+    <form method="GET" id="form1">
+        <label for="position1">Enter the first position</label>
+        <input type="text" name="position1" id="position1">
+        <label for="position2">Enter the second position</label>
+        <input type="text" name="position2" id="position2">
+        <br>
+        <input type="submit" value="Find the Word" id="submit">
+    </form>
+    <div class="question" id="question">
+        <h2>Please select one</h2>
+        <button class="selection" id="selection1">substring()</button>
+        <button class="selection" id="selection2">substr()</button>
+    </div>
+    <script src="textReceiver.js"></script>
+</body>
+</html>
